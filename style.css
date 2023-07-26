@@ -386,6 +386,9 @@ a.button:hover {
         padding: 0;
     }
 
+    .section-img {
+        padding-top: 35px;
+    }
 
     .wrapper-img img,
     .intro-img img,
