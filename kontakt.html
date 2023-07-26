@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="icon" type="image/png" href="Slike/logoHeader2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <p>Stomatološka ordinacija Dr Ristić - <span>"Zdrav osmeh, blistava budućnost"</span></p>
+        </div><!--end .container-->
+    </div><!--end .header-->
+    <div class="nav">
+        <div class="container">
+            <div class="nav-logo">
+                <img src="Slike/logoHeader2.png" width="50%" alt="LogoHeader">
+            </div><!--end .nav-logo-->
+            <div class="nav-links">
+                <p><i class="fa-solid fa-bars" onclick="toggleNav()"></i></p>
+                <ul id="navMenu">
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="o-nama.html">O nama</a></li>
+                    <li><a href="usluge.html">Usluge</a></li>
+                    <li><a href="cenovnik.html">Cenovnik</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div><!--end .nav-links-->
+        </div><!--end .container-->
+    </div><!--end .nav-->
+
+    <div class="hero hero2">
+        <div class="container">
+            <h1>Kontakt</h1>
+        </div><!--end .container-->
+    </div><!--end .hero-->
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro-img">
+                <img src="Slike/kontakt1.jpg" alt="Osmeh">
+            </div><!--end .intro-img-->
+            <div class="intro-txt">
+                <h2>Kontaktirajte nas za vrhunsku stomatološku negu</h2>
+                <p>Hvala vam što ste posetili našu stranicu. Ako imate bilo kakva pitanja, želje ili biste želeli da zakazujete termin, slobodno nas kontaktirajte. Naš tim je ovde da vam pruži sve potrebne informacije i podršku. Možete nas kontaktirati putem telefona ili poslati poruku putem kontakt forme koja se nalazi na ovoj stranici. Naš ljubazan i profesionalan tim će odgovoriti na vašu poruku u najkraćem mogućem roku.
+                </p>
+
+                <p>Ako želite da nas posetite, možete pronaći našu stomatološku ordinaciju na adresi koja je navedena na ovoj stranici. Naša lokacija je lako dostupna i obezbeđuje prijatan dolazak za naše pacijente. Radujemo se što ćemo vam pružiti vrhunsku stomatološku negu i pomoći vam da ostvarite zdrav i prelep osmeh. Naša stručnost i predanost osiguravaju da svaki pacijent dobije personalizovanu negu i individualni pristup. Obezbedite sebi vrhunsku stomatološku negu i ostvarite osmeh o kakvom ste oduvek sanjali. Kontaktirajte nas danas i dozvolite da se pobrinemo za vaše oralno zdravlje i blistav osmeh.</p>
+            </div><!--end .intro-txt-->
+        </div><!--end .container-->
+    </div><!--end .intro-->
+
+    <div class="contact-form" id="zakazipregled">
+        <div class="container">
+           
+
+        <div class="form-container">
+            <h2>Zakaži pregled</h2>
+            <form>
+            <div class="form-group">
+                <label for="name" class="form-label">Vaše ime i prezime:</label>
+                <input type="text" id="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone" class="form-label">Broj telefona:</label>
+                <input type="tel" id="phone" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date" class="form-label">Željeni datum:</label>
+                <input type="date" id="date" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time" class="form-label">Željeno vreme:</label>
+                <input type="time" id="time" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Vaša poruka:</label>
+                <textarea id="message" class="form-input" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="form-button">Zakaži</button>
+            </form>
+        </div><!-- end. form-container-->
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d871.9126357496947!2d22.171327538790546!3d42.68777759616393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1355371e6ee9d745%3A0x603d7cebfd62ee13!2sStomatoloska%20Ordinacija%20Dr%20Radmilo%20Ristic%20Preduzetnik%20Surdulica%2C%20Nikole%20Tesle%209!5e0!3m2!1sen!2srs!4v1686955123829!5m2!1sen!2srs" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!--end .map-container-->
+
+        </div><!--end .container-->
+    </div><!--end .contact-form-->
+
+    
+    <div class="footertop">
+        <div class="container">
+            <div class="footertop-logo">
+                <img src="Slike/logoFooter.png" width="150px" alt="logo">
+            </div><!--end .footertop-logo-->
+            <div class="footertop-txt1">
+                <h3><i class="fa-solid fa-phone"></i> Kontakt</h3>
+                <p>Nikole Tesle 9, Surdulica</p>
+                <p>063.8597200</p>
+                <p>017.824522</p>
+            </div><!--end .footertop-txt1-->
+            <div class="footertop-txt2">
+                <h3><i class="fa-regular fa-clock"></i> Radno vreme</h3>
+                <p>PON - PET: 08:00-20:00</p>
+                <p>SUB - NED: Hitni slučajevi</p>
+            </div><!--end .footertop-txt2-->
+            <div class="footertop-links">
+                <p>Pratite nas:</p>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            </div><!--end .footertop-links-->
+        </div><!--end .container-->
+    </div><!--end .footertop-->
+
+    <div class="footer">
+        <div class="container">
+            <p>Stomatološka ordinacija dr Ristić &copy;</p>
+        </div><!--end .container-->
+    </div><!--end .footer-->
+
+    <script>
+
+        function toggleNav() {
+        let navMenu = document.getElementById("navMenu");
+        if (navMenu.style.display === "block") {
+        navMenu.style.display = "none";
+        } else {
+        navMenu.style.display = "block";
+        }
+        }
+    
+    </script>
+</body>
+</html>
